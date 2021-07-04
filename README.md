@@ -16,6 +16,13 @@ CRP_STATYSTYKI have:
 - Swimming Skills
 - And more
 
+## MYSQL FOR SAVEING ARMOUR AND HEALTH
+```
+ALTER TABLE Customers
+ADD armour varchar(255) DEFAULT '200',
+ADD health varchar(255) DEFAULT '0';
+```
+
 ## Jeżeli macie jakie kolwiek pytania piszcie DM!
 - Discord: Dominik#6969
 - Website: https://dom-in.studio
