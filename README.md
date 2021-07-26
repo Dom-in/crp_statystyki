@@ -18,7 +18,7 @@ CRP_STATYSTYKI have:
 
 ## MYSQL FOR SAVEING ARMOUR AND HEALTH
 ```
-ALTER TABLE Customers
+ALTER TABLE users
 ADD armour varchar(255) DEFAULT '200',
 ADD health varchar(255) DEFAULT '0';
 ```
